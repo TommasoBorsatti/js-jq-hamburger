@@ -20,3 +20,18 @@ closeButton.click(
     hamburgerMenu.fadeOut(200);
   }
 );
+
+
+// METODO ALTERNATIVO - Sfrutto la classe .active che è gia presente e che da display block al menu hamburger:
+
+// openButton.click(
+//   function(){
+//     $(".hamburger-menu").addClass("active");
+//   }
+// );
+//
+// closeButton.click(
+//   function(){
+//     $(".hamburger-menu").removeClass("active");
+//   }
+// );
